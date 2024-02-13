@@ -1,0 +1,19 @@
+TCP (Transmission Control Protocol):
+
+TCP is a foundational protocol in computer networking. It provides reliable, ordered, and error-checked delivery of packets between applications running on hosts communicating via an IP network.
+In the context of messaging systems or message brokers, TCP is often used as a transport protocol for communication between clients and the broker. It ensures reliable and ordered delivery of messages.
+AMQP (Advanced Message Queuing Protocol):
+
+AMQP is an open standard application layer protocol for message-oriented middleware.
+It is designed to support messaging between applications or components in a way that is platform-independent, language-agnostic, and supports a variety of messaging patterns.
+AMQP provides features like message queuing, routing, reliability, and security. It's particularly popular in enterprise messaging systems.
+STOMP (Simple Text Oriented Messaging Protocol):
+
+STOMP is a text-based wire protocol for messaging.
+It is simpler compared to protocols like AMQP and is often used for lightweight messaging scenarios.
+STOMP is widely supported by various messaging brokers and client libraries, making it a good choice for interoperability between different systems and languages.
+MQTT (Message Queuing Telemetry Transport):
+
+MQTT is a lightweight publish-subscribe messaging protocol designed for constrained devices and low-bandwidth, high-latency or unreliable networks.
+It is commonly used in IoT (Internet of Things) scenarios due to its efficiency and simplicity.
+MQTT follows a publish-subscribe model where clients publish messages to topics, and other clients subscribe to those topics to receive messages.
